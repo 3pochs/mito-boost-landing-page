@@ -15,7 +15,7 @@ const Ingredients = () => {
     {
       name: "Maqui Berry",
       description: "Power-packed purple superfruit loaded with rare anthocyanins for cellular vitality",
-      image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Aristotelia_chilensis_fruit.jpg",
+      image: "https://www.lifegate.com/app/uploads/ING_42323_01740-e1448492536261.jpg",
       benefits: [
         "Enhances Mitolyn effectiveness",
         "Supports cardiovascular wellness",
