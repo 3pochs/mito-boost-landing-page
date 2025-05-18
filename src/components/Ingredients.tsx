@@ -15,7 +15,7 @@ const Ingredients = () => {
     {
       name: "Maqui Berry",
       description: "Power-packed purple superfruit loaded with rare anthocyanins for cellular vitality",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
+      image: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Aristotelia_chilensis_fruit.jpg",
       benefits: [
         "Enhances Mitolyn effectiveness",
         "Supports cardiovascular wellness",
@@ -25,7 +25,7 @@ const Ingredients = () => {
     {
       name: "Rhodiola",
       description: "Legendary adaptogenic herb containing 140+ polyphenols that revitalize from within",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07",
+      image: "https://media.post.rvohealth.io/wp-content/uploads/2020/09/rhodiola-rosea-thumb-732x549.jpg",
       benefits: [
         "Maximizes Mitolyn potency",
         "Elevates mood & reduces tension",
@@ -35,7 +35,7 @@ const Ingredients = () => {
     {
       name: "Haematococcus",
       description: "Extraordinary red algae concentrated with premium astaxanthin for cellular protection",
-      image: "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
+      image: "https://www.algaebarn.com/wp-content/uploads/2020/08/red-macro-scaled.jpg",
       benefits: [
         "Boosts Mitolyn performance",
         "Enhances joint flexibility",
@@ -45,7 +45,7 @@ const Ingredients = () => {
     {
       name: "Amla",
       description: "Ancient rejuvenating fruit bursting with flavonoids and vital micronutrients",
-      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+      image: "https://post.healthline.com/wp-content/uploads/2020/10/indian-gooseberry-1296x728-header.jpg",
       benefits: [
         "Amplifies Mitolyn benefits",
         "Supports optimal digestion",
@@ -55,7 +55,7 @@ const Ingredients = () => {
     {
       name: "Theobroma Cacao",
       description: "Luxurious tropical ingredient rich in epicatechin for whole-body rejuvenation",
-      image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9",
+      image: "https://storage.googleapis.com/powop-assets/kew_profiles/Theobroma_cacao_STE_The_cac_20100413AM013_crop_web_fullsize.jpg",
       benefits: [
         "Intensifies Mitolyn action",
         "Maintains healthy blood flow",
@@ -65,7 +65,7 @@ const Ingredients = () => {
     {
       name: "Schisandra",
       description: "Potent metabolism-boosting berries packed with unique antioxidant compounds",
-      image: "https://images.unsplash.com/photo-1501854140801-50d01698950b",
+      image: "https://cdn.shopify.com/s/files/1/0528/8266/9745/files/3_023e48af-fef9-4791-b1f5-d2a35b2811de.jpg?v=1711691985",
       benefits: [
         "Empowers Mitolyn efficacy",
         "Supports liver detoxification",
