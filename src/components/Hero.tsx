@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -11,23 +12,24 @@ const Hero = () => {
               Revitalize Your Body From the Inside Out
             </h1>
             <p className="text-lg md:text-xl mb-8 opacity-90">
-              Discover how mitochondrial support can supercharge your energy, metabolism, and fat-burning potential.
+              Discover how Mitolyn can supercharge your energy, metabolism, and fat-burning potential.
             </p>
             <Button 
               size="lg" 
-              className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md"
+              className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md group transition-all duration-300 transform hover:scale-105"
               onClick={() => window.open("https://mitolyn.com/science/?affiliate=nassoro77", "_blank")}
             >
-              Learn More
+              Learn More 
+              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
           </div>
           <div className="hidden md:block">
-            <div className="relative">
+            <div className="relative animate-fadeIn animation-delay-300">
               <div className="absolute -inset-4 rounded-full bg-white/10 blur-xl"></div>
               <img 
-                src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" 
-                alt="Healthy living concept" 
-                className="w-full h-auto rounded-xl shadow-2xl relative z-10 object-cover"
+                src="/lovable-uploads/c6fe58b9-d791-4299-9992-e29ec39ffc1c.png" 
+                alt="Energetic woman in athletic wear" 
+                className="w-full h-auto rounded-xl shadow-2xl relative z-10 object-cover hover:shadow-glow transition-all duration-500"
               />
             </div>
           </div>
