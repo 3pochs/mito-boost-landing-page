@@ -29,11 +29,11 @@ const MiddleCTA = () => {
           
           <Button 
             size="lg" 
-            className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md group transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+            className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-lg hover:shadow-xl animate-bounce-slow"
             onClick={() => window.open("https://mitolyn.com/welcome/?affiliate=nassoro77&tid=homepage", "_blank")}
           >
             <ShoppingCart className="mr-2" /> 
-            Buy Now - Risk Free
+            Start Your Transformation
           </Button>
           <p className="mt-4 text-sm opacity-75">60-day satisfaction guarantee • Secure checkout</p>
         </div>

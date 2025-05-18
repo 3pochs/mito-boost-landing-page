@@ -1,4 +1,6 @@
 
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <footer className="bg-gray-100 py-10">
@@ -18,13 +20,13 @@ const Footer = () => {
         <div className="border-t border-gray-300 pt-6 mt-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-xs text-gray-500 mb-4 md:mb-0">
-              Privacy Policy | Terms of Service
+              <Link to="/privacy-policy" className="hover:text-mitolyn-accent">Privacy Policy</Link> | <Link to="/terms-of-service" className="hover:text-mitolyn-accent">Terms of Service</Link>
             </p>
             <div className="flex space-x-4">
-              <a href="#hero" className="text-mitolyn-primary hover:text-mitolyn-accent text-sm">
+              <a href="#hero" className="text-mitolyn-primary hover:text-mitolyn-accent text-sm transition-colors">
                 Back to top
               </a>
-              <a href="mailto:contact@example.com" className="text-mitolyn-primary hover:text-mitolyn-accent text-sm">
+              <a href="mailto:contact@example.com" className="text-mitolyn-primary hover:text-mitolyn-accent text-sm transition-colors">
                 Contact
               </a>
             </div>

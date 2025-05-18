@@ -16,10 +16,10 @@ const Hero = () => {
             </p>
             <Button 
               size="lg" 
-              className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md group transition-all duration-300 transform hover:scale-105"
+              className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md transition-all duration-300"
               onClick={() => window.open("https://mitolyn.com/science/?affiliate=nassoro77", "_blank")}
             >
-              Learn More 
+              Learn How It Works 
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" />
             </Button>
           </div>

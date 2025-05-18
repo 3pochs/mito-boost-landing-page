@@ -1,6 +1,6 @@
 
 import { Button } from "@/components/ui/button";
-import { ShoppingCart, ZapIcon } from "lucide-react";
+import { ShoppingCart } from "lucide-react";
 
 const FinalCTA = () => {
   return (
@@ -15,26 +15,16 @@ const FinalCTA = () => {
         </p>
         <div className="flex flex-col items-center animate-fadeIn animation-delay-300">
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 inline-block">
-            <div className="flex items-center justify-center space-x-4">
-              <div className="text-center">
-                <p className="text-sm uppercase tracking-wide">Was: <span className="line-through">$79.95</span></p>
-                <p className="text-3xl font-bold text-mitolyn-accent">Now: $59.95</p>
-              </div>
-              <div className="h-12 w-px bg-white/30"></div>
-              <div className="text-center">
-                <p className="text-sm uppercase tracking-wide">Save</p>
-                <p className="text-2xl font-bold text-mitolyn-accent">25%</p>
-              </div>
-            </div>
+            <p className="text-2xl font-bold text-mitolyn-accent">FREE Shipping on All Orders!</p>
           </div>
           
           <Button 
             size="lg" 
-            className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md group transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-glow animate-pulse-slow"
+            className="bg-mitolyn-accent hover:bg-green-600 text-white px-8 py-6 text-lg rounded-md transition-all duration-300 shadow-lg hover:shadow-glow animate-pulse-slow"
             onClick={() => window.open("https://mitolyn.com/welcome/?affiliate=nassoro77&tid=homepage", "_blank")}
           >
             <ShoppingCart className="mr-2" />
-            Buy Now - 100% Guaranteed
+            Unleash The New Me
           </Button>
           <p className="mt-4 text-sm opacity-75">Free shipping • 60-day money back guarantee • Secure payment</p>
         </div>
