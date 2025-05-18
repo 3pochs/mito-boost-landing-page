@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +99,25 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-mitolyn-background text-foreground font-opensans;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-bold;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #3B0A70 0%, #4D1C8A 100%);
+}
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #E0E0E0, transparent);
+  width: 90%;
+  margin: 2rem auto;
 }
