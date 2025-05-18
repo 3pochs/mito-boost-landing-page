@@ -95,18 +95,42 @@ export default {
 				fadeIn: {
 					'0%': { opacity: '0' },
 					'100%': { opacity: '1' }
+				},
+				pulse: {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' }
+				},
+				bounce: {
+					'0%, 100%': { transform: 'translateY(-5%)' },
+					'50%': { transform: 'translateY(0)' }
+				},
+				float: {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				shimmer: {
+					'0%': { backgroundPosition: '-200% 0' },
+					'100%': { backgroundPosition: '200% 0' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-				'fadeIn': 'fadeIn 1s ease-in-out'
+				'fadeIn': 'fadeIn 1s ease-in-out',
+				'pulse-slow': 'pulse 3s ease-in-out infinite',
+				'bounce-slow': 'bounce 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
+				'shimmer': 'shimmer 8s ease-in-out infinite'
 			},
 			fontFamily: {
 				poppins: ['Poppins', 'sans-serif'],
 				opensans: ['Open Sans', 'sans-serif']
-			}
+			},
+			backgroundImage: {
+                'shimmer-gradient': 'linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 25%, rgba(255,255,255,0.2) 75%, rgba(255,255,255,0) 100%)',
+            }
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+

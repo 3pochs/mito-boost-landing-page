@@ -5,16 +5,16 @@ import { ShoppingCart } from "lucide-react";
 const FinalCTA = () => {
   return (
     <section id="final-cta" className="py-20 bg-mitolyn-primary text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 to-transparent"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 to-transparent animate-pulse-slow"></div>
       <div className="container mx-auto px-4 text-center relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold mb-6 animate-fadeIn">
           Support Your Cells. Feel the Change.
         </h2>
         <p className="text-xl mb-8 max-w-3xl mx-auto opacity-90 animate-fadeIn animation-delay-200">
-          Take the first step toward a more energized, healthier you. Mitolyn is waiting to transform your daily vitality.
+          Take the first step toward a more energized, healthier you. Mitolyn helps activate your body's natural fat-burning potential from within.
         </p>
         <div className="flex flex-col items-center animate-fadeIn animation-delay-300">
-          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 inline-block">
+          <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-6 inline-block transform hover:scale-105 transition-transform duration-300">
             <p className="text-2xl font-bold text-mitolyn-accent">FREE Shipping on All Orders!</p>
           </div>
           
